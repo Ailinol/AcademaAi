@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Assistente UEM</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        /* Minimalist Event Card Styles - UEM Theme */
+        .events-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: var(--uem-green-primary);
+            font-size: 0.9rem;
+        }
+
+        .filter-btn {
+            padding: 0.4rem 0.8rem;
+            border: 1px solid var(--uem-green-primary);
+            background: white;
+            color: var(--uem-green-primary);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--uem-green-primary);
+            color: white;
+        }
+
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .event-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .event-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-color: var(--uem-gold);
+        }
+
+        .event-image {
+            width: 100%;
+            height: 140px;
+            /* Reduced height */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .event-content {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .event-date {
+            font-size: 0.8rem;
+            color: var(--uem-gold);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .event-badges {
+            display: flex;
+            gap: 0.3rem;
+        }
+
+        .event-badge {
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .event-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--uem-green-primary);
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .event-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        .event-meta>div {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .event-meta svg {
+            width: 14px;
+            height: 14px;
+            color: var(--uem-green-secondary);
+        }
+
+        .event-desc {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            line-height: 1.5;
+        }
+
+        .event-tags {
+            display: flex;
+            gap: 0.3rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.8rem;
+        }
+
+        .event-tag {
+            font-size: 0.7rem;
+            color: #777;
+            background: #f5f5f5;
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+        }
+
+        .event-capacity {
+            margin-top: auto;
+            margin-bottom: 0.8rem;
+        }
+
+        .capacity-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.3rem;
+            font-size: 0.75rem;
+            color: #666;
+        }
+
+        .capacity-bar {
+            height: 4px;
+            background: #eee;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .capacity-fill {
+            height: 100%;
+            background: var(--uem-green-primary);
+            border-radius: 2px;
+        }
+
+        .capacity-fill.full {
+            background: #d32f2f;
+        }
+
+        .btn-view-event {
+            width: 100%;
+            padding: 0.6rem;
+            background: transparent;
+            border: 1px solid var(--uem-green-primary);
+            color: var(--uem-green-primary);
+            font-weight: 600;
+            font-size: 0.85rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .btn-view-event:hover {
+            background: var(--uem-green-primary);
+            color: white;
+        }
+
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+            color: var(--uem-green-primary);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="../Logo-UEM-transparente-212x300.png" alt="Logo UEM" class="logo-img">
+                <div>
+                    <div class="logo-text">UEM</div>
+                    <span class="logo-subtext">Universidade Eduardo Mondlane</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="assistente.html">Assistente</a></li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="eventos.html" class="active">Eventos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1 style="color: var(--uem-green-primary); margin-bottom: 1rem;">Eventos da UEM</h1>
+            <p style="color: #666; margin-bottom: 2rem;">Fique por dentro das atividades académicas e culturais.</p>
+        </section>
+
+        <!-- Filter Controls -->
+        <div class="events-controls">
+            <div class="filter-group">
+                <label>Filtros:</label>
+                <button class="filter-btn active" onclick="loadEvents()">Todos</button>
+                <button class="filter-btn" onclick="filterByStatus('UPCOMING')">Próximos</button>
+                <button class="filter-btn" onclick="filterByCategory('TECH')">Tecnologia</button>
+                <button class="filter-btn" onclick="filterByCategory('ACADEMIC')">Académico</button>
+                <button class="filter-btn" onclick="filterByCategory('CULTURAL')">Cultural</button>
+            </div>
+        </div>
+
+        <!-- Events Grid (populated by JavaScript) -->
+        <div class="events-grid">
+            <div class="loading-spinner">
+                <p>Carregando eventos...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for Event Details -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title" class="modal-title">Título do Evento</h3>
+                <button class="btn-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                    <span id="modal-date"
+                        style="background: var(--uem-green-primary); color: white; padding: 0.5rem 1rem; border-radius: 6px; font-weight: bold;">DATA</span>
+                    <span id="modal-location"
+                        style="color: #666; display: flex; align-items: center; gap: 0.5rem;">Local</span>
+                </div>
+                <p id="modal-desc" style="line-height: 1.8; color: #444;">Descrição detalhada...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Universidade Eduardo Mondlane. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/events.js"></script>
+</body>
+
+</html>

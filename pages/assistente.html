@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente UEM - Chat</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="../Logo-UEM-transparente-212x300.png" alt="Logo UEM" class="logo-img">
+                <div>
+                    <div class="logo-text">UEM</div>
+                    <span class="logo-subtext">Universidade Eduardo Mondlane</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="assistente.html" class="active">Assistente</a></li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1 style="color: var(--uem-green-primary); margin-bottom: 1rem;">Assistente Virtual UEM</h1>
+            <p style="color: #666; margin-bottom: 2rem;">Faça sua pergunta abaixo e receba ajuda instantânea.</p>
+        </section>
+
+        <div class="chat-interface">
+            <div class="chat-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Chat Online</span>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    Olá! Sou o assistente virtual da UEM. Como posso ajudar você hoje?
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <form id="chat-form" style="display: flex; width: 100%; gap: 1rem;">
+                    <input type="text" id="chat-input" class="chat-input" placeholder="Digite sua pergunta aqui..."
+                        autocomplete="off">
+                    <button type="submit" class="btn-send">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Universidade Eduardo Mondlane. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

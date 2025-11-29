@@ -1,0 +1,1519 @@
+2025-11-20 17:45:57,656 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 17:45:57,657 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 17:45:57,659 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 17:45:57,660 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 17:46:00,782 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 17:46:00,782 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 17:46:00,881 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 17:46:00,882 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 17:46:00,919 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 17:46:00,920 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 17:46:00,980 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 17:46:00,981 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 17:46:01,246 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 17:46:01,247 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 17:46:01,396 - __main__ - INFO - Created 498 text chunks
+2025-11-20 17:46:02,831 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 17:46:04,667 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 17:46:11,241 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 17:46:16,524 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 17:46:16,699 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 17:46:16,799 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-11-20 17:46:16,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 17:46:16,807 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 17:46:23,327 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 17:46:23,327 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 17:46:23,328 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 17:46:23,329 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 17:46:26,109 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 17:46:26,110 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 17:46:26,180 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 17:46:26,181 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 17:46:26,205 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 17:46:26,206 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 17:46:26,234 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 17:46:26,235 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 17:46:26,408 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 17:46:26,408 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 17:46:26,491 - __main__ - INFO - Created 498 text chunks
+2025-11-20 17:46:27,605 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 17:46:28,762 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 17:46:35,245 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 17:46:41,051 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 17:46:41,129 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 17:46:41,156 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 17:46:41,187 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-20 17:58:41,823 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:58:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 17:58:41,830 - __main__ - INFO - Processing message: oi...
+2025-11-20 17:58:42,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 17:59:29,315 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:59:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 17:59:29,319 - __main__ - INFO - Processing message: oi...
+2025-11-20 17:59:30,002 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 17:59:41,102 - __main__ - ERROR - Error processing chat request: 'chat_history'
+Traceback (most recent call last):
+  File "F:\projecto\server.py", line 360, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 170, in _call
+    answer = self.combine_docs_chain.run(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 608, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\base.py", line 138, in _call
+    output, extra_return_dict = self.combine_docs(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\stuff.py", line 259, in combine_docs
+    return self.llm_chain.predict(callbacks=callbacks, **inputs), {}
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 319, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 127, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 136, in generate
+    prompts, stop = self.prep_prompts(input_list, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 198, in prep_prompts
+    prompt = self.prompt.format_prompt(**selected_inputs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 726, in format_prompt
+    messages = self.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 1187, in format_messages
+    message = message_template.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 559, in format_messages
+    return [self.format(**kwargs)]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 592, in format
+    text = self.prompt.format(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\prompt.py", line 186, in format
+    return DEFAULT_FORMATTER_MAPPING[self.template_format](self.template, **kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 161, in format
+    return self.vformat(format_string, args, kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\formatting.py", line 33, in vformat
+    return super().vformat(format_string, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "C:\Program Files\Python310\lib\string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 270, in get_field
+    obj = self.get_value(first, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 227, in get_value
+    return kwargs[key]
+KeyError: 'chat_history'
+2025-11-20 17:59:41,103 - __main__ - ERROR - Error processing chat request: 'chat_history'
+Traceback (most recent call last):
+  File "F:\projecto\server.py", line 360, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 170, in _call
+    answer = self.combine_docs_chain.run(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 608, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\base.py", line 138, in _call
+    output, extra_return_dict = self.combine_docs(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\stuff.py", line 259, in combine_docs
+    return self.llm_chain.predict(callbacks=callbacks, **inputs), {}
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 319, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 127, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 136, in generate
+    prompts, stop = self.prep_prompts(input_list, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 198, in prep_prompts
+    prompt = self.prompt.format_prompt(**selected_inputs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 726, in format_prompt
+    messages = self.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 1187, in format_messages
+    message = message_template.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 559, in format_messages
+    return [self.format(**kwargs)]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 592, in format
+    text = self.prompt.format(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\prompt.py", line 186, in format
+    return DEFAULT_FORMATTER_MAPPING[self.template_format](self.template, **kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 161, in format
+    return self.vformat(format_string, args, kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\formatting.py", line 33, in vformat
+    return super().vformat(format_string, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "C:\Program Files\Python310\lib\string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 270, in get_field
+    obj = self.get_value(first, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 227, in get_value
+    return kwargs[key]
+KeyError: 'chat_history'
+2025-11-20 17:59:41,168 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:59:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-20 17:59:41,171 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:59:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-20 17:59:50,405 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:59:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 17:59:50,410 - __main__ - INFO - Processing message: oi...
+2025-11-20 17:59:51,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 17:59:51,278 - __main__ - ERROR - Error processing chat request: 'chat_history'
+Traceback (most recent call last):
+  File "F:\projecto\server.py", line 360, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 170, in _call
+    answer = self.combine_docs_chain.run(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 608, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\base.py", line 138, in _call
+    output, extra_return_dict = self.combine_docs(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\stuff.py", line 259, in combine_docs
+    return self.llm_chain.predict(callbacks=callbacks, **inputs), {}
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 319, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 127, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 136, in generate
+    prompts, stop = self.prep_prompts(input_list, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 198, in prep_prompts
+    prompt = self.prompt.format_prompt(**selected_inputs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 726, in format_prompt
+    messages = self.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 1187, in format_messages
+    message = message_template.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 559, in format_messages
+    return [self.format(**kwargs)]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 592, in format
+    text = self.prompt.format(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\prompt.py", line 186, in format
+    return DEFAULT_FORMATTER_MAPPING[self.template_format](self.template, **kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 161, in format
+    return self.vformat(format_string, args, kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\formatting.py", line 33, in vformat
+    return super().vformat(format_string, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "C:\Program Files\Python310\lib\string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 270, in get_field
+    obj = self.get_value(first, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 227, in get_value
+    return kwargs[key]
+KeyError: 'chat_history'
+2025-11-20 17:59:51,283 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 17:59:51] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-20 18:02:57,361 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:02:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:02:57,372 - __main__ - INFO - Processing message: oi...
+2025-11-20 18:02:58,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:02:58,039 - __main__ - ERROR - Error processing chat request: 'chat_history'
+Traceback (most recent call last):
+  File "F:\projecto\server.py", line 360, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 170, in _call
+    answer = self.combine_docs_chain.run(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 608, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\base.py", line 138, in _call
+    output, extra_return_dict = self.combine_docs(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\combine_documents\stuff.py", line 259, in combine_docs
+    return self.llm_chain.predict(callbacks=callbacks, **inputs), {}
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 319, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\_api\deprecation.py", line 191, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 386, in __call__
+    return self.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 127, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 136, in generate
+    prompts, stop = self.prep_prompts(input_list, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\llm.py", line 198, in prep_prompts
+    prompt = self.prompt.format_prompt(**selected_inputs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 726, in format_prompt
+    messages = self.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 1187, in format_messages
+    message = message_template.format_messages(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 559, in format_messages
+    return [self.format(**kwargs)]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\chat.py", line 592, in format
+    text = self.prompt.format(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\prompts\prompt.py", line 186, in format
+    return DEFAULT_FORMATTER_MAPPING[self.template_format](self.template, **kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 161, in format
+    return self.vformat(format_string, args, kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\formatting.py", line 33, in vformat
+    return super().vformat(format_string, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "C:\Program Files\Python310\lib\string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 270, in get_field
+    obj = self.get_value(first, args, kwargs)
+  File "C:\Program Files\Python310\lib\string.py", line 227, in get_value
+    return kwargs[key]
+KeyError: 'chat_history'
+2025-11-20 18:02:58,043 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:02:58] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-20 18:04:23,207 - werkzeug - INFO -  * Detected change in 'F:\\projecto\\server.py', reloading
+2025-11-20 18:04:24,343 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 18:04:38,755 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 18:04:38,755 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 18:04:38,756 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 18:04:38,757 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:04:41,384 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:04:41,385 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 18:04:41,456 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 18:04:41,456 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:04:41,481 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:04:41,481 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:04:41,532 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:04:41,534 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:04:41,703 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:04:41,704 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 18:04:41,806 - __main__ - INFO - Created 498 text chunks
+2025-11-20 18:04:43,103 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 18:04:44,468 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 18:04:51,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:05:02,013 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 18:05:02,147 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 18:05:02,262 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-11-20 18:05:02,263 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-20 18:05:02,274 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 18:05:10,890 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 18:05:10,892 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 18:05:10,894 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 18:05:10,897 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:05:14,323 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:05:14,324 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 18:05:14,465 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 18:05:14,465 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:05:14,543 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:05:14,543 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:05:14,652 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:05:14,652 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:05:14,813 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:05:14,814 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 18:05:14,920 - __main__ - INFO - Created 498 text chunks
+2025-11-20 18:05:16,759 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 18:05:17,892 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 18:05:25,216 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:05:32,087 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 18:05:32,197 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 18:05:32,237 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 18:05:32,268 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-20 18:05:50,876 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:05:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:05:50,881 - __main__ - INFO - Processing message: oi...
+2025-11-20 18:05:51,596 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:05:54,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:05:54,522 - __main__ - INFO - Response generated successfully (length: 62)
+2025-11-20 18:05:54,526 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:05:54] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:06:11,796 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:06:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:06:11,802 - __main__ - INFO - Processing message: Como posso concorrer a uem?...
+2025-11-20 18:06:13,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:06:13,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:06:22,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:06:22,747 - __main__ - INFO - Response generated successfully (length: 922)
+2025-11-20 18:06:22,748 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:06:22] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:08:13,632 - werkzeug - INFO -  * Detected change in 'F:\\projecto\\server.py', reloading
+2025-11-20 18:08:14,646 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 18:08:19,792 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 18:08:19,792 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 18:08:19,793 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 18:08:19,793 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:08:22,086 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:08:22,088 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 18:08:22,153 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 18:08:22,154 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:08:22,178 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:08:22,178 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:08:22,226 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:08:22,228 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:08:22,375 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:08:22,376 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 18:08:22,449 - __main__ - INFO - Created 498 text chunks
+2025-11-20 18:08:23,395 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 18:08:24,422 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 18:08:32,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:08:37,372 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 18:08:37,444 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 18:08:37,475 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 18:08:37,500 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-20 18:08:56,235 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:08:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:08:56,240 - __main__ - INFO - Processing message: Quais os cursos que posso fazer tendo estudado ciencias com biologia?...
+2025-11-20 18:08:58,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:09:09,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:09:09,050 - __main__ - INFO - Response generated successfully (length: 1336)
+2025-11-20 18:09:09,051 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:09:09] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:10:15,601 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:10:15] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:10:25,002 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:10:25] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:10:28,892 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:10:28] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:10:40,072 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:10:40] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:13:20,718 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:13:20] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:13:39,124 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:13:39] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:13:50,548 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:13:50] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:14:39,055 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:14:39] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:14:44,285 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:14:44] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:16:23,172 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:16:23] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:17:32,422 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:17:32] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:17:47,670 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:17:47] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:20:01,708 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:20:01] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:20:30,662 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:20:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:20:30,677 - __main__ - INFO - Processing message: Quem  e reitor da Uem?...
+2025-11-20 18:20:34,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:20:34,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:20:42,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:20:42,075 - __main__ - INFO - Response generated successfully (length: 337)
+2025-11-20 18:20:42,076 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:20:42] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:21:29,797 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:21:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:21:29,804 - __main__ - INFO - Processing message: Quantos sao os cursos que serao lecionados na uem em 2026?...
+2025-11-20 18:21:31,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:21:31,830 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:21:40,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:21:40,783 - __main__ - INFO - Response generated successfully (length: 638)
+2025-11-20 18:21:40,783 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:21:40] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:29:59,826 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:29:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:29:59,834 - __main__ - INFO - Processing message: Oi...
+2025-11-20 18:30:01,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:30:01,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:30:12,791 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:30:12,802 - __main__ - INFO - Response generated successfully (length: 638)
+2025-11-20 18:30:12,803 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:30:12] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:31:43,005 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:31:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:31:43,010 - __main__ - INFO - Processing message: oi...
+2025-11-20 18:31:43,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:31:44,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:31:48,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:31:48,521 - __main__ - INFO - Response generated successfully (length: 133)
+2025-11-20 18:31:48,522 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:31:48] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:32:08,394 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:32:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:32:08,401 - __main__ - INFO - Processing message: Como posso fazer o exame de admissao?...
+2025-11-20 18:32:09,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:32:09,851 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:32:39,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:32:39,242 - __main__ - INFO - Response generated successfully (length: 1378)
+2025-11-20 18:32:39,243 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:32:39] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:35:44,600 - werkzeug - INFO -  * Detected change in 'F:\\projecto\\server.py', reloading
+2025-11-20 18:35:46,511 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 18:35:52,730 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 18:35:52,731 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 18:35:52,731 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 18:35:52,732 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:35:54,951 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:35:54,951 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 18:35:55,030 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 18:35:55,030 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:35:55,060 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:35:55,060 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:35:55,114 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:35:55,114 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:35:55,289 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:35:55,290 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 18:35:55,364 - __main__ - INFO - Created 498 text chunks
+2025-11-20 18:35:56,565 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 18:35:57,674 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 18:36:03,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:36:09,749 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 18:36:09,925 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 18:36:10,049 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 18:36:10,142 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-20 18:36:25,176 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:36:25] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:36:25,179 - __main__ - INFO - Processing message: Como eu posso concorrer para a uem?...
+2025-11-20 18:36:26,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:36:30,973 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:36:30,984 - __main__ - INFO - Response generated successfully (length: 785)
+2025-11-20 18:36:30,985 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:36:30] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:37:30,493 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:37:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:37:30,500 - __main__ - INFO - Processing message: Como posso fazer o exame de admissao?...
+2025-11-20 18:37:31,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:37:32,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:37:39,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:37:39,304 - __main__ - INFO - Response generated successfully (length: 844)
+2025-11-20 18:37:39,305 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:37:39] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:38:24,677 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:38:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:38:24,683 - __main__ - INFO - Processing message: Onde eu faço a pre inscrição?...
+2025-11-20 18:38:25,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:38:26,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:38:30,087 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:38:30,090 - __main__ - INFO - Response generated successfully (length: 589)
+2025-11-20 18:38:30,091 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:38:30] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:40:13,082 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:40:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:40:13,087 - __main__ - INFO - Processing message: Quero o link para fazer a pre inscricao...
+2025-11-20 18:40:14,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:40:14,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:40:18,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:40:18,790 - __main__ - INFO - Response generated successfully (length: 634)
+2025-11-20 18:40:18,792 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:40:18] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:44:10,624 - werkzeug - INFO -  * Detected change in 'F:\\projecto\\server.py', reloading
+2025-11-20 18:44:12,062 - werkzeug - INFO -  * Restarting with stat
+2025-11-20 18:44:18,103 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-20 18:44:18,104 - __main__ - INFO - Environment variables validated successfully
+2025-11-20 18:44:18,104 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-20 18:44:18,105 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:44:20,268 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-20 18:44:20,268 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-20 18:44:20,349 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-20 18:44:20,350 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:44:20,379 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-20 18:44:20,380 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:44:20,455 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-20 18:44:20,455 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:44:20,621 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-20 18:44:20,622 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-20 18:44:20,742 - __main__ - INFO - Created 498 text chunks
+2025-11-20 18:44:22,050 - __main__ - INFO - Removing existing vectorstore
+2025-11-20 18:44:23,082 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-20 18:44:30,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:44:36,395 - __main__ - INFO - Vectorstore created successfully
+2025-11-20 18:44:36,636 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-20 18:44:36,701 - werkzeug - WARNING -  * Debugger is active!
+2025-11-20 18:44:36,739 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-20 18:44:57,962 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:44:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:44:57,971 - __main__ - INFO - Processing message: Como eu posso realizar o exame admissao?...
+2025-11-20 18:44:58,713 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:45:06,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:45:06,098 - __main__ - INFO - Response generated successfully (length: 1057)
+2025-11-20 18:45:06,099 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:45:06] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:46:58,667 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:46:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:46:58,675 - __main__ - INFO - Processing message: Onde eu faco o pre registro?...
+2025-11-20 18:46:59,666 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:47:00,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:47:05,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:47:05,442 - __main__ - INFO - Response generated successfully (length: 523)
+2025-11-20 18:47:05,444 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:47:05] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:48:49,632 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:48:49] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:50:55,979 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:50:55] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:51:45,778 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:51:45] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:52:15,690 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:52:15] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:55:30,205 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:55:30] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-20 18:55:30,215 - __main__ - INFO - Processing message: Como posso fazer o exame de admissão?...
+2025-11-20 18:55:31,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:55:32,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-20 18:55:42,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 18:55:42,133 - __main__ - INFO - Response generated successfully (length: 1053)
+2025-11-20 18:55:42,135 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:55:42] "POST /chat HTTP/1.1" 200 -
+2025-11-20 18:57:04,171 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:57:04] "GET /documents HTTP/1.1" 200 -
+2025-11-20 18:58:50,774 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 18:58:50] "GET /documents HTTP/1.1" 200 -
+2025-11-20 19:09:07,463 - werkzeug - INFO - 127.0.0.1 - - [20/Nov/2025 19:09:07] "GET /documents HTTP/1.1" 200 -
+2025-11-24 09:38:31,232 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 09:38:31,233 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 09:38:31,234 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 09:38:31,234 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 09:38:33,336 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 09:38:33,336 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 09:38:33,418 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 09:38:33,418 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 09:38:33,444 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 09:38:33,445 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 09:38:33,496 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 09:38:33,497 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 09:38:33,634 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 09:38:33,634 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 09:38:33,704 - __main__ - INFO - Created 498 text chunks
+2025-11-24 09:38:35,911 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 09:38:38,000 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 09:38:45,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 09:38:52,503 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 09:38:52,696 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 09:38:52,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.152.55:5000
+2025-11-24 09:38:52,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 09:38:52,971 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 09:39:01,820 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 09:39:01,821 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 09:39:01,822 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 09:39:01,823 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 09:39:05,418 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 09:39:05,419 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 09:39:05,513 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 09:39:05,514 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 09:39:05,549 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 09:39:05,550 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 09:39:05,617 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 09:39:05,618 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 09:39:05,894 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 09:39:05,894 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 09:39:06,018 - __main__ - INFO - Created 498 text chunks
+2025-11-24 09:39:08,002 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 09:39:10,020 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 09:39:17,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 09:39:24,608 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 09:39:24,720 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 09:39:24,778 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 09:39:24,825 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 11:00:25,766 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 11:00:25,767 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 11:00:25,767 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 11:00:25,768 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 11:00:27,925 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 11:00:27,925 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 11:00:27,989 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 11:00:27,991 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 11:00:28,017 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 11:00:28,017 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 11:00:28,062 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 11:00:28,062 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 11:00:28,220 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 11:00:28,220 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 11:00:28,291 - __main__ - INFO - Created 498 text chunks
+2025-11-24 11:00:29,257 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 11:00:30,459 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 11:00:36,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 11:00:43,113 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 11:00:43,243 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 11:00:43,330 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-11-24 11:00:43,330 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 11:00:43,338 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 11:00:47,863 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 11:00:47,863 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 11:00:47,864 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 11:00:47,865 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 11:00:49,681 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 11:00:49,681 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 11:00:49,733 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 11:00:49,733 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 11:00:49,753 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 11:00:49,755 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 11:00:49,776 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 11:00:49,776 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 11:00:49,902 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 11:00:49,902 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 11:00:49,972 - __main__ - INFO - Created 498 text chunks
+2025-11-24 11:00:50,727 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 11:00:51,564 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 11:00:59,105 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 11:01:05,907 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 11:01:05,975 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 11:01:06,018 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 11:01:06,061 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 11:01:19,829 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 11:01:19] "GET /health HTTP/1.1" 200 -
+2025-11-24 11:02:26,441 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 11:02:26] "GET /documents HTTP/1.1" 200 -
+2025-11-24 11:02:32,123 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 11:02:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 11:02:32,130 - __main__ - INFO - Processing message: oi...
+2025-11-24 11:02:33,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 11:02:34,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 11:02:34,314 - __main__ - INFO - Response generated successfully (length: 33)
+2025-11-24 11:02:34,314 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 11:02:34] "POST /chat HTTP/1.1" 200 -
+2025-11-24 11:30:00,268 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 11:30:00] "GET /documents HTTP/1.1" 200 -
+2025-11-24 11:30:03,364 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 11:30:03] "GET /documents HTTP/1.1" 200 -
+2025-11-24 13:15:12,445 - werkzeug - INFO -  * Detected change in 'f:\\projecto\\server.py', reloading
+2025-11-24 13:15:13,769 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 13:15:19,473 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 13:15:19,474 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 13:15:19,475 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 13:15:19,475 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 13:15:21,634 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 13:15:21,634 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 13:15:21,698 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 13:15:21,699 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 13:15:21,722 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 13:15:21,722 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 13:15:21,767 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 13:15:21,767 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 13:15:21,893 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 13:15:21,893 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 13:15:21,965 - __main__ - INFO - Created 498 text chunks
+2025-11-24 13:15:22,954 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 13:15:23,966 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 13:15:31,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 13:15:37,677 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 13:15:37,835 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 13:15:37,889 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 13:15:37,924 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 13:15:42,867 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 13:15:42,867 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 13:15:42,868 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 13:15:42,868 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 13:15:44,888 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 13:15:44,888 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 13:15:44,948 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 13:15:44,948 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 13:15:44,970 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 13:15:44,970 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 13:15:44,998 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 13:15:44,998 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 13:15:45,176 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 13:15:45,177 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 13:15:45,256 - __main__ - INFO - Created 498 text chunks
+2025-11-24 13:15:46,060 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 13:15:46,944 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 13:15:52,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 13:15:58,968 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 13:15:59,123 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 13:15:59,444 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-11-24 13:15:59,449 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 13:15:59,457 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 13:16:06,390 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 13:16:06,391 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 13:16:06,391 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 13:16:06,393 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 13:16:08,372 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 13:16:08,372 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 13:16:08,431 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 13:16:08,431 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 13:16:08,454 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 13:16:08,454 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 13:16:08,482 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 13:16:08,483 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 13:16:08,640 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 13:16:08,640 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 13:16:08,723 - __main__ - INFO - Created 498 text chunks
+2025-11-24 13:16:09,635 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 13:16:10,549 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 13:16:18,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 13:16:30,596 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 13:16:30,859 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 13:16:30,981 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 13:16:31,091 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 13:17:26,136 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 13:17:26] "GET /documents HTTP/1.1" 200 -
+2025-11-24 13:59:15,127 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 13:59:15] "GET /documents HTTP/1.1" 200 -
+2025-11-24 14:20:29,364 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:20:29] "GET /documents HTTP/1.1" 200 -
+2025-11-24 14:21:01,767 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:21:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 14:21:01,794 - __main__ - INFO - Processing message: oi...
+2025-11-24 14:21:03,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 14:21:03,657 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 14:21:03,741 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:21:03] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 14:33:46,163 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:33:46] "GET /documents HTTP/1.1" 200 -
+2025-11-24 14:36:46,485 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:36:46] "GET /documents HTTP/1.1" 200 -
+2025-11-24 14:37:09,241 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:37:09] "GET /documents HTTP/1.1" 200 -
+2025-11-24 14:37:15,899 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:37:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 14:37:15,904 - __main__ - INFO - Processing message: oi...
+2025-11-24 14:37:17,432 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 14:37:17,453 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 14:37:17,460 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:37:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 14:37:44,132 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 14:37:44,132 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 14:37:44,132 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 14:37:44,132 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 14:37:46,882 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 14:37:46,882 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 14:37:46,961 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 14:37:46,962 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 14:37:46,988 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 14:37:46,988 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 14:37:47,057 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 14:37:47,057 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 14:37:47,240 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 14:37:47,241 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 14:37:47,330 - __main__ - INFO - Created 498 text chunks
+2025-11-24 14:37:50,108 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 14:37:52,389 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 14:38:00,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 14:38:10,779 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 14:38:10,881 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 14:38:11,040 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-11-24 14:38:11,040 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 14:38:11,049 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 14:38:15,663 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:38:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 14:38:15,674 - __main__ - INFO - Processing message: Oi...
+2025-11-24 14:38:15,882 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 14:38:15,883 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 14:38:15,885 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 14:38:15,885 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 14:38:17,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 14:38:17,236 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 14:38:17,240 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 14:38:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 14:38:17,775 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 14:38:17,775 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 14:38:17,823 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 14:38:17,824 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 14:38:17,842 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 14:38:17,842 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 14:38:17,861 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 14:38:17,861 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 14:38:17,974 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 14:38:17,974 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 14:38:18,047 - __main__ - INFO - Created 498 text chunks
+2025-11-24 14:38:18,876 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 14:38:19,832 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 14:38:26,161 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 14:38:32,952 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 14:38:33,064 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 14:38:33,118 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 14:38:33,162 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 15:03:49,885 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 15:03:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 15:03:49,896 - __main__ - INFO - Processing message: oi...
+2025-11-24 15:03:50,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 15:03:51,028 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 15:03:51,034 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 15:03:51] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 19:08:26,252 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 19:08:26] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 19:08:26,270 - __main__ - INFO - Processing message: oi...
+2025-11-24 19:08:27,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 19:08:27,740 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 19:08:27,747 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 19:08:27] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 20:16:39,192 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 20:16:39,192 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 20:16:39,193 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 20:16:39,193 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:16:43,853 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:16:43,853 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 20:16:44,457 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 20:16:44,457 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:16:44,485 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:16:44,486 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:16:44,544 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:16:44,544 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:16:44,742 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:16:44,743 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 20:16:44,843 - __main__ - INFO - Created 498 text chunks
+2025-11-24 20:16:47,828 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 20:16:50,559 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 20:16:57,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:17:03,895 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 20:17:04,054 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 20:17:04,242 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.101:5000
+2025-11-24 20:17:04,243 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 20:17:04,259 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 20:17:12,765 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 20:17:12,766 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 20:17:12,768 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 20:17:12,769 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:17:14,800 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:17:14,800 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 20:17:14,867 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 20:17:14,867 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:17:14,893 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:17:14,893 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:17:14,942 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:17:14,942 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:17:15,148 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:17:15,148 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 20:17:15,251 - __main__ - INFO - Created 498 text chunks
+2025-11-24 20:17:16,399 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 20:17:17,458 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 20:17:25,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:17:33,012 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 20:17:33,158 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 20:17:33,214 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 20:17:33,259 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 20:38:16,887 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:38:16] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:38:16,902 - __main__ - INFO - Processing message: oi...
+2025-11-24 20:38:18,831 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:38:18,897 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 20:38:18,903 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:38:18] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 20:38:23,452 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:38:23] "GET /documents HTTP/1.1" 200 -
+2025-11-24 20:38:35,796 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:38:35] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:38:35,802 - __main__ - INFO - Processing message: oi...
+2025-11-24 20:38:37,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:38:37,979 - __main__ - ERROR - Error processing chat request: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 322, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 650, in max_marginal_relevance_search
+    docs = self.max_marginal_relevance_search_by_vector(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 597, in max_marginal_relevance_search_by_vector
+    results = self.__query_collection(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\utils\utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 157, in __query_collection
+    return self._collection.query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\models\Collection.py", line 221, in query
+    query_results = self._client._query(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\chromadb\api\rust.py", line 505, in _query
+    rust_response = self.bindings.query(
+chromadb.errors.NotFoundError: Error getting collection: Collection [b333ade8-e441-41b7-81d1-e120798fc330] does not exists.
+2025-11-24 20:38:38,042 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:38:38] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-24 20:40:40,232 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 20:40:40,232 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 20:40:40,234 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 20:40:40,235 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:40:42,372 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:40:42,372 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 20:40:42,438 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 20:40:42,438 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:40:42,464 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:40:42,465 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:40:42,511 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:40:42,511 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:40:42,655 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:40:42,656 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 20:40:42,734 - __main__ - INFO - Created 498 text chunks
+2025-11-24 20:40:43,675 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 20:40:44,656 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 20:40:51,241 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:41:00,394 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 20:41:00,502 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 20:41:00,580 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.101:5000
+2025-11-24 20:41:00,581 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 20:41:00,586 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 20:41:04,879 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 20:41:04,880 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 20:41:04,881 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 20:41:04,881 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:41:07,137 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:41:07,138 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 20:41:07,188 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 20:41:07,188 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:41:07,209 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:41:07,209 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:41:07,227 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:41:07,227 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:41:07,353 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:41:07,353 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 20:41:07,423 - __main__ - INFO - Created 498 text chunks
+2025-11-24 20:41:08,115 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 20:41:08,922 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 20:41:15,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:41:22,759 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 20:41:22,836 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 20:41:22,866 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 20:41:22,902 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 20:41:33,095 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:41:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:41:33,102 - __main__ - INFO - Processing message: oi...
+2025-11-24 20:41:34,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:41:35,881 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:41:35,939 - __main__ - INFO - Response generated successfully (length: 33)
+2025-11-24 20:41:35,940 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:41:35] "POST /chat HTTP/1.1" 200 -
+2025-11-24 20:41:51,693 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:41:51] "GET /documents HTTP/1.1" 200 -
+2025-11-24 20:42:29,919 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:42:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:42:29,923 - __main__ - INFO - Processing message: como faço o exame de admissão?...
+2025-11-24 20:42:31,293 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:42:32,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:42:36,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:42:36,890 - __main__ - INFO - Response generated successfully (length: 704)
+2025-11-24 20:42:36,890 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:42:36] "POST /chat HTTP/1.1" 200 -
+2025-11-24 20:43:53,364 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:43:53] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:43:53,375 - __main__ - INFO - Processing message: quais documentos preciso para realizar o exame de admissão?...
+2025-11-24 20:43:54,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:43:56,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:43:56,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:43:57,007 - __main__ - INFO - Response generated successfully (length: 67)
+2025-11-24 20:43:57,009 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:43:57] "POST /chat HTTP/1.1" 200 -
+2025-11-24 20:44:12,346 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:44:12] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:44:12,357 - __main__ - INFO - Processing message: voce tem essas informações...
+2025-11-24 20:44:13,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:44:14,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:44:15,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:44:15,354 - __main__ - INFO - Response generated successfully (length: 67)
+2025-11-24 20:44:15,356 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:44:15] "POST /chat HTTP/1.1" 200 -
+2025-11-24 20:44:15,442 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:44:15] "GET /documents HTTP/1.1" 200 -
+2025-11-24 20:46:08,563 - werkzeug - INFO -  * Detected change in 'f:\\projecto\\server.py', reloading
+2025-11-24 20:46:34,177 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 20:46:34,177 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 20:46:34,178 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 20:46:34,179 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:46:36,549 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:46:36,549 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 20:46:36,618 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 20:46:36,619 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:46:36,648 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:46:36,650 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:46:36,718 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:46:36,719 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:46:36,889 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:46:36,890 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 20:46:36,974 - __main__ - INFO - Created 498 text chunks
+2025-11-24 20:46:38,270 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 20:46:39,418 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 20:46:45,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:46:52,785 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 20:46:52,901 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 20:46:53,015 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.101:5000
+2025-11-24 20:46:53,016 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 20:46:53,026 - werkzeug - INFO -  * Restarting with stat
+2025-11-24 20:46:59,583 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-24 20:46:59,584 - __main__ - INFO - Environment variables validated successfully
+2025-11-24 20:46:59,585 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-24 20:46:59,585 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:47:01,775 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-24 20:47:01,776 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-24 20:47:01,852 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-24 20:47:01,852 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:47:01,884 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-24 20:47:01,884 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:47:01,944 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-24 20:47:01,944 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:47:02,109 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-24 20:47:02,110 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-24 20:47:02,192 - __main__ - INFO - Created 498 text chunks
+2025-11-24 20:47:03,226 - __main__ - INFO - Removing existing vectorstore
+2025-11-24 20:47:04,314 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-24 20:47:10,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:47:20,056 - __main__ - INFO - Vectorstore created successfully
+2025-11-24 20:47:20,148 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-24 20:47:20,183 - werkzeug - WARNING -  * Debugger is active!
+2025-11-24 20:47:20,390 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-24 20:47:41,656 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:47:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-24 20:47:41,663 - __main__ - INFO - Processing message: Como posso fazer o exame de admissao?...
+2025-11-24 20:47:42,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-24 20:47:48,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-24 20:47:48,282 - __main__ - INFO - Response generated successfully (length: 1014)
+2025-11-24 20:47:48,283 - werkzeug - INFO - 127.0.0.1 - - [24/Nov/2025 20:47:48] "POST /chat HTTP/1.1" 200 -
+2025-11-25 08:48:36,237 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 08:48:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-25 08:48:36,268 - __main__ - INFO - Processing message: e como posso concorrer para uma bolsa de estudos sendo novo ingresso?...
+2025-11-25 08:48:38,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 08:48:39,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-25 08:48:44,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 08:48:44,266 - __main__ - INFO - Response generated successfully (length: 1036)
+2025-11-25 08:48:44,269 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 08:48:44] "POST /chat HTTP/1.1" 200 -
+2025-11-25 09:44:24,120 - werkzeug - INFO -  * Detected change in 'f:\\projecto\\server.py', reloading
+2025-11-25 09:44:25,792 - werkzeug - INFO -  * Restarting with stat
+2025-11-25 09:47:50,265 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-25 09:47:50,266 - __main__ - INFO - Environment variables validated successfully
+2025-11-25 09:47:50,266 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-25 09:47:50,268 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-25 09:47:52,515 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-25 09:47:52,515 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-25 09:47:52,586 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-25 09:47:52,588 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-25 09:47:52,611 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-25 09:47:52,612 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-25 09:47:52,654 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-25 09:47:52,654 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-25 09:47:52,784 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-25 09:47:52,784 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-25 09:47:52,851 - __main__ - INFO - Created 498 text chunks
+2025-11-25 09:47:55,106 - __main__ - INFO - Removing existing vectorstore
+2025-11-25 09:47:57,205 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 09:48:03,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-25 09:48:10,180 - __main__ - INFO - Vectorstore created successfully
+2025-11-25 09:48:10,295 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-25 09:48:10,460 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+2025-11-25 09:48:10,461 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 09:48:10,479 - werkzeug - INFO -  * Restarting with stat
+2025-11-25 09:48:15,748 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-25 09:48:15,749 - __main__ - INFO - Environment variables validated successfully
+2025-11-25 09:48:15,751 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-25 09:48:15,751 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-25 09:48:17,520 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-25 09:48:17,521 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-25 09:48:17,568 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-25 09:48:17,569 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-25 09:48:17,587 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-25 09:48:17,587 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-25 09:48:17,607 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-25 09:48:17,607 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-25 09:48:17,733 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-25 09:48:17,733 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-25 09:48:17,812 - __main__ - INFO - Created 498 text chunks
+2025-11-25 09:48:18,599 - __main__ - INFO - Removing existing vectorstore
+2025-11-25 09:48:19,401 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 09:48:26,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-25 09:48:31,967 - __main__ - INFO - Vectorstore created successfully
+2025-11-25 09:48:32,034 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-25 09:48:32,060 - werkzeug - WARNING -  * Debugger is active!
+2025-11-25 09:48:32,201 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-25 10:47:34,184 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 10:47:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-25 10:47:34,208 - __main__ - INFO - Processing message: oi...
+2025-11-25 10:47:34,486 - openai._base_client - INFO - Retrying request to /embeddings in 0.411911 seconds
+2025-11-25 10:47:34,913 - openai._base_client - INFO - Retrying request to /embeddings in 0.899535 seconds
+2025-11-25 10:47:35,833 - __main__ - ERROR - Error processing chat request: Connection error.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\_base_client.py", line 969, in request
+    response = self._client.send(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "f:\projecto\server.py", line 323, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 649, in max_marginal_relevance_search
+    embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_openai\embeddings\base.py", line 638, in embed_query
+    return self.embed_documents([text], **kwargs)[0]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_openai\embeddings\base.py", line 590, in embed_documents
+    return self._get_len_safe_embeddings(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_openai\embeddings\base.py", line 478, in _get_len_safe_embeddings
+    response = self.client.create(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\resources\embeddings.py", line 129, in create
+    return self._post(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\_base_client.py", line 1001, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2025-11-25 10:47:36,052 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 10:47:36] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-25 10:48:23,945 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 10:48:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-25 10:48:23,965 - __main__ - INFO - Processing message: oi...
+2025-11-25 10:48:25,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-25 10:48:28,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 10:48:30,022 - __main__ - INFO - Response generated successfully (length: 33)
+2025-11-25 10:48:30,024 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 10:48:30] "POST /chat HTTP/1.1" 200 -
+2025-11-25 11:21:19,228 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 11:21:19] "GET /documents HTTP/1.1" 200 -
+2025-11-25 11:21:57,242 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 11:21:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-25 11:21:57,269 - __main__ - INFO - Processing message: Como posso fazer um exame de recorrencia?...
+2025-11-25 11:21:58,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 11:22:00,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-25 11:22:05,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-25 11:22:06,174 - __main__ - INFO - Response generated successfully (length: 990)
+2025-11-25 11:22:06,177 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 11:22:06] "POST /chat HTTP/1.1" 200 -
+2025-11-25 12:29:28,806 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 12:29:28] "GET /documents HTTP/1.1" 200 -
+2025-11-25 12:30:29,943 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 12:30:29] "GET /documents HTTP/1.1" 200 -
+2025-11-26 07:04:36,921 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-26 07:04:36,922 - __main__ - INFO - Environment variables validated successfully
+2025-11-26 07:04:36,924 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-26 07:04:36,924 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-26 07:04:39,225 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-26 07:04:39,225 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-26 07:04:39,288 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-26 07:04:39,289 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-26 07:04:39,315 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-26 07:04:39,316 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-26 07:04:39,377 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-26 07:04:39,377 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-26 07:04:39,538 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-26 07:04:39,538 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-26 07:04:39,608 - __main__ - INFO - Created 498 text chunks
+2025-11-26 07:04:42,183 - __main__ - INFO - Removing existing vectorstore
+2025-11-26 07:04:44,390 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-26 07:04:50,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-26 07:04:56,852 - __main__ - INFO - Vectorstore created successfully
+2025-11-26 07:04:56,969 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-26 07:04:57,201 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.152.54:5000
+2025-11-26 07:04:57,202 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 07:04:57,216 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 07:05:02,175 - __main__ - INFO - Starting UEM Intelligent Assistant API
+2025-11-26 07:05:02,176 - __main__ - INFO - Environment variables validated successfully
+2025-11-26 07:05:02,177 - __main__ - INFO - Found 5 PDF file(s): ['Catalogo_dos_Cursos_2016.pdf', 'Edital-UEM_2026.pdf', 'Edital_BOLSAS_NI20261.pdf', 'Regulamento_Pos-Graduacao_UEM.pdf', 'UEM-Reg-Pedagogico-Agost2020.pdf']
+2025-11-26 07:05:02,177 - __main__ - INFO - Loading: Catalogo_dos_Cursos_2016.pdf
+2025-11-26 07:05:04,530 - __main__ - INFO - Successfully loaded 191 pages from Catalogo_dos_Cursos_2016.pdf
+2025-11-26 07:05:04,530 - __main__ - INFO - Loading: Edital-UEM_2026.pdf
+2025-11-26 07:05:04,618 - __main__ - INFO - Successfully loaded 23 pages from Edital-UEM_2026.pdf
+2025-11-26 07:05:04,618 - __main__ - INFO - Loading: Edital_BOLSAS_NI20261.pdf
+2025-11-26 07:05:04,654 - __main__ - INFO - Successfully loaded 2 pages from Edital_BOLSAS_NI20261.pdf
+2025-11-26 07:05:04,654 - __main__ - INFO - Loading: Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-26 07:05:04,721 - __main__ - INFO - Successfully loaded 46 pages from Regulamento_Pos-Graduacao_UEM.pdf
+2025-11-26 07:05:04,726 - __main__ - INFO - Loading: UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-26 07:05:04,908 - __main__ - INFO - Successfully loaded 91 pages from UEM-Reg-Pedagogico-Agost2020.pdf
+2025-11-26 07:05:04,909 - __main__ - INFO - Total documents loaded: 353 pages
+2025-11-26 07:05:05,013 - __main__ - INFO - Created 498 text chunks
+2025-11-26 07:05:06,008 - __main__ - INFO - Removing existing vectorstore
+2025-11-26 07:05:06,980 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-26 07:05:14,027 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-26 07:05:20,302 - __main__ - INFO - Vectorstore created successfully
+2025-11-26 07:05:20,430 - __main__ - INFO - Conversational chain initialized successfully
+2025-11-26 07:05:20,475 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 07:05:20,511 - werkzeug - INFO -  * Debugger PIN: 607-968-465
+2025-11-26 08:08:11,199 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 08:08:11] "GET /health HTTP/1.1" 200 -
+2025-11-26 09:56:17,153 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 09:56:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-26 09:56:17,178 - __main__ - INFO - Processing message: bom dia...
+2025-11-26 09:56:17,383 - openai._base_client - INFO - Retrying request to /embeddings in 0.379394 seconds
+2025-11-26 09:56:17,772 - openai._base_client - INFO - Retrying request to /embeddings in 0.983248 seconds
+2025-11-26 09:56:18,771 - __main__ - ERROR - Error processing chat request: Connection error.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\_base_client.py", line 969, in request
+    response = self._client.send(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\projecto\server.py", line 323, in chat
+    result = conversation_chain.invoke({"question": user_message})
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 167, in invoke
+    raise e
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\base.py", line 157, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 159, in _call
+    docs = self._get_docs(new_question, inputs, run_manager=_run_manager)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain\chains\conversational_retrieval\base.py", line 396, in _get_docs
+    docs = self.retriever.invoke(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\retrievers.py", line 259, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_core\vectorstores\base.py", line 1088, in _get_relevant_documents
+    docs = self.vectorstore.max_marginal_relevance_search(query, **_kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_community\vectorstores\chroma.py", line 649, in max_marginal_relevance_search
+    embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_openai\embeddings\base.py", line 638, in embed_query
+    return self.embed_documents([text], **kwargs)[0]
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_openai\embeddings\base.py", line 590, in embed_documents
+    return self._get_len_safe_embeddings(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\langchain_openai\embeddings\base.py", line 478, in _get_len_safe_embeddings
+    response = self.client.create(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\resources\embeddings.py", line 129, in create
+    return self._post(
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\USER\AppData\Roaming\Python\Python310\site-packages\openai\_base_client.py", line 1001, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2025-11-26 09:56:18,914 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 09:56:18] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-11-26 10:14:59,622 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:14:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-26 10:14:59,632 - __main__ - INFO - Processing message: oi...
+2025-11-26 10:15:00,917 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-26 10:15:04,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 10:15:04,624 - __main__ - INFO - Response generated successfully (length: 33)
+2025-11-26 10:15:04,629 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:15:04] "POST /chat HTTP/1.1" 200 -
+2025-11-26 10:16:54,072 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:16:54] "GET /documents HTTP/1.1" 200 -
+2025-11-26 10:17:17,565 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:17:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-26 10:17:17,570 - __main__ - INFO - Processing message: como faco para fazer exame de recorrencia?...
+2025-11-26 10:17:19,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 10:17:20,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-26 10:17:24,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 10:17:24,286 - __main__ - INFO - Response generated successfully (length: 940)
+2025-11-26 10:17:24,287 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:17:24] "POST /chat HTTP/1.1" 200 -
+2025-11-26 10:18:28,180 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:18:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-11-26 10:18:28,189 - __main__ - INFO - Processing message: Como fazer incrissao para exame de admissao?...
+2025-11-26 10:18:29,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 10:18:30,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-11-26 10:18:34,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-26 10:18:34,401 - __main__ - INFO - Response generated successfully (length: 639)
+2025-11-26 10:18:34,401 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:18:34] "POST /chat HTTP/1.1" 200 -
+2025-11-26 10:19:09,710 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:19:09] "GET /documents HTTP/1.1" 200 -
